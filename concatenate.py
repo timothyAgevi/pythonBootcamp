@@ -14,3 +14,4 @@ print(f' number is' +' ' + format(num,'.2f') + ' '+ 'and sum',sum)
 # method 3 : special use of format
 s ='{:.2f},{}'.format(num,sum)
 print(s)
+Concatenate
