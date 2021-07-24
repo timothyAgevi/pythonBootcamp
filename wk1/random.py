@@ -1,8 +1,5 @@
 # basic syntax
-import random   
-
-print(random.random()) 
- # error : TypeError: 'module' object is not callable
+: TypeError: 'module' object is not callable
 
 # to display 5 numbers  btn 0 and 1
 # for i in range(5):
@@ -10,7 +7,10 @@ print(random.random())
 
 # to display 5 numbers  upto 6
 for i in range(5):
-    print(random.random()* 6)
+    print(random.random()* 6)import random   
+
+# print(random.random()) 
+ # error 
 
 # using uniform 
 # 2 parameters ;num to statr from ;number to end
@@ -43,3 +43,22 @@ friends_list =  ['John', 'Eric', 'Michael', 'Terry', 'Graham']
 print(random.sample(friends_list,5))
 random.shuffle(friends_list)
 print(friends_list)
+
+#4  
+
+# to contain both strings upper and lowercase import string
+import string
+letters_numbers = string.ascii_letters + string.digits
+for i in range(7):
+    word += random.choice(letters_number
+
+# to avoid the loop above
+word1 = ''.join(random.sample(letters_numbers,7)) 
+
+# third way ,use of choices
+# however can generate duplicate
+word = random.choices(letter_numbers, k=7)    
+
+
+
+
