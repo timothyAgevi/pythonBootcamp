@@ -3,8 +3,8 @@ def enigma_light():
     keys = 'abcdefghijklmnopqrstuvwxyz !'
 # autogenerate the values string by offsetting original string
     values = keys[-1] + keys[0:-1]
-    print(keys)
-    print(values)
+    # print(keys)
+    # print(values)
 # create two dictionaries
     dict_e = dict(zip(keys,values))
     dict_d = dict(zip(values,keys)) 
