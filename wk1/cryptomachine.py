@@ -16,9 +16,9 @@ def enigma_light():
     mode = input('Crypto mode: encode (e) OR decode (d): ')
 # run encode or decode
     if mode == 'e':
-        new_msg = [dict_e[letter] for letter in msg]
+        new_msg = "".join[dict_e[letter] for letter in msg]
     elif mode == 'd':
-        new_msg = [dict_d[letter] for letter in msg]
+        new_msg = "".join[dict_d[letter] for letter in msg]
     
     return new_msg
 # return result
