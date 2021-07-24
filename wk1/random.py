@@ -16,3 +16,7 @@ for i in range(5):
 # 2 parameters ;num to statr from ;number to end
 for i in range(5):
     print(random.uniform(1,6))
+
+# for just integers use rand int    
+for i in range(5):
+    print(random.int(1,6))
