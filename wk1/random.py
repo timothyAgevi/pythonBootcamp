@@ -24,3 +24,14 @@ for i in range(5):
 # use of ranrange(), add 3rd parameter : step
 for i in range(5):
     print(random.randrange(1,6,3))
+
+# random on strings
+#1 choice
+friends_list =  ['John', 'Eric', 'Michael', 'Terry', 'Graham']
+print(random.choice(friends_list))
+
+# 2 sample -used to draw multiple choices
+# cantains aurgument of how many
+# only draws sample once
+friends_list =  ['John', 'Eric', 'Michael', 'Terry', 'Graham']
+print(random.sample(friends_list,3))
