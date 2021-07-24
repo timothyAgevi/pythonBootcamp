@@ -20,3 +20,7 @@ for i in range(5):
 # for just integers use rand int    
 for i in range(5):
     print(random.int(1,6))
+
+# use of ranrange(), add 3rd parameter : step
+for i in range(5):
+    print(random.randrange(1,6,3))
