@@ -45,6 +45,7 @@ for draw in range(1,rounds+1):
     else:
         result = -bet
     #calc win or loss/ result and new amount/purse
+    purse += result
     #lose game if lose half of money
     #print results
 # print final results
