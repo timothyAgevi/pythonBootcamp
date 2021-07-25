@@ -51,4 +51,6 @@ for draw in range(1,rounds+1):
         print(f'Game over! You lost to much gold!!!')
         break
     #print results
+    print(f'purse: {purse}, last result: ({marble}): {result}')
+    print('')
 # print final results
