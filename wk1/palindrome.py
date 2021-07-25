@@ -17,3 +17,11 @@ def is_palindrome(val):
 # brute force approach
 # step 1:take all 3 digit numbers and multiply by themself
 # i.e 100 * 100,100 * 101 ...
+def palindrome():
+    start_time = time.time()
+    palindromes_list=[]
+    debug_list=[]
+    low_val =100
+    high_val = 999
+    iterations = 0
+    
