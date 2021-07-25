@@ -13,3 +13,7 @@ def is_palindrome(val):
 
 # def is_palindrome(val):
 #     return str(val) == str(val)[::-1]
+
+# brute force approach
+# step 1:take all 3 digit numbers and multiply by themself
+# i.e 100 * 100,100 * 101 ...
