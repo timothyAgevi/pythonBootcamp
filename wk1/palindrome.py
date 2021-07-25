@@ -6,4 +6,7 @@ import time
 # find all palindromes between 100 and 999
 def is_palindrome(val):
     val = str(val) # convert the value to string
-    
+    if val == val[::-1]:
+        return(True)
+    else:
+        return(False)
