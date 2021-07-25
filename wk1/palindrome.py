@@ -21,8 +21,8 @@ def palindrome():
     start_time = time.time()
     palindromes_list=[]
     debug_list=[]
-    low_val =10
-    high_val = 40
+    low_val =0
+    high_val = 10
     iterations = 0
     for num1 in range(low_val,high_val):
         for num2 in range(low_val,high_val):
@@ -30,7 +30,7 @@ def palindrome():
        
         if is_palindrome(num1*num2):
                 palindromes_list.append(num1*num2)
-                debug_list.append([num1,num2,num1*num2])
+                debug_list.append([num1,num2,num1*num2]) #list oflist bcz of []
     print('print of palindromes:',palindromes_list, num1, num2)
     print('debug_list:', debug_list)
     print('Iterations:' , iterations)
