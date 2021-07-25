@@ -18,6 +18,8 @@
 
 import random
 #create a bag with 10 marbles
+bag = ('green','green','green','green','green','green',
+'red','red','red','red')
 #starting amount of money
 # current money amount
 #result of last round
