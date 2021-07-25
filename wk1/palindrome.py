@@ -21,8 +21,8 @@ def palindrome():
     start_time = time.time()
     palindromes_list=[]
     debug_list=[]
-    low_val =100
-    high_val = 999
+    low_val =10
+    high_val = 40
     iterations = 0
     for num1 in range(low_val,high_val):
         for num2 in range(low_val,high_val)
