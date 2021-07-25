@@ -33,6 +33,7 @@ marble = 'none'
 # welcome user to game
 print(f'You start the game with {start_purse} gold pieces')
 # loop drawing marbles
+for draw in range(1,rounds+1):
     #how much was bet
     #draw marble
     # win or loss
