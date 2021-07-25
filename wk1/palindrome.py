@@ -31,3 +31,9 @@ def palindrome():
         if is_palindrome(num1*num2):
                 palindromes_list.append(num1*num2)
                 debug_list.append([num1,num2,num1*num2])
+    print('print of palindromes:',palindromes_list, num1, num2)
+    print('debug_list:', debug_list)
+    print('Iterations:' , iterations)
+    print('Largest palindrome:', max(palindromes_list))
+    print('Runtime:', time.time()-start_time)
+    print('---------End Run--------')                
