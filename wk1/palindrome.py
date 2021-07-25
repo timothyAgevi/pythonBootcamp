@@ -25,4 +25,5 @@ def palindrome():
     high_val = 999
     iterations = 0
     for num1 in range(low_val,high_val):
-        for num2 in range(low_val,high_va 
+        for num2 in range(low_val,high_val)
+        iterations += 1
