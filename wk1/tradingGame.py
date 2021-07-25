@@ -38,6 +38,7 @@ for draw in range(1,rounds+1):
     #how much was bet
       bet = int(input('Current Purse: {purse} Last draw: {marble} \nRound {draw} - How much do you want to bet?: ')
     #draw marble
+     marble = random.choice(bag)
     # win or loss
     #calc win or loss/ result and new amount/purse
     #lose game if lose half of money
