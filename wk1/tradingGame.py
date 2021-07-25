@@ -7,3 +7,4 @@
 # you start game with 1000 goldpieces of €, £, $
 # number of rows should be a variable
 # if you lose half of your money is over
+# print data 
