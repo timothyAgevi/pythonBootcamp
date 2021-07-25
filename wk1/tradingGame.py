@@ -42,6 +42,8 @@ for draw in range(1,rounds+1):
     # win or loss
     if marble == 'green':
         result = bet
+        elif marble == 'black':
+        result = 10 * bet
     else:
         result = -bet
     #calc win or loss/ result and new amount/purse
