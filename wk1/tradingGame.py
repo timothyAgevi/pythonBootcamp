@@ -47,5 +47,8 @@ for draw in range(1,rounds+1):
     #calc win or loss/ result and new amount/purse
     purse += result
     #lose game if lose half of money
+    if purse < 0.5 * start_purse:
+        print(f'Game over! You lost to much gold!!!')
+        break
     #print results
 # print final results
