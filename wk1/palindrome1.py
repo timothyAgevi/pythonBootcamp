@@ -22,6 +22,7 @@ def palindrome():
                 debug_list.append([num1,num2,palindrom_list])
                 print(palindrom_list)
                 # print(debug_list)
+                print('Largest palindrome:', max(palindromes_list))
 palindrome()                
 
 
