@@ -34,7 +34,9 @@ marble = 'none'
 print(f'You start the game with {start_purse} gold pieces')
 # loop drawing marbles
 for draw in range(1,rounds+1):
+
     #how much was bet
+      bet = int(input('Current Purse: {purse} Last draw: {marble} \nRound {draw} - How much do you want to bet?: ')
     #draw marble
     # win or loss
     #calc win or loss/ result and new amount/purse
