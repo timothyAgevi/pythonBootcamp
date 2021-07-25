@@ -21,6 +21,7 @@ import random
 bag = ('green','green','green','green','green','green',
 'red','red','red','red')
 #starting amount of money
+start_purse = 1000
 # current money amount
 #result of last round
 #how many rounds
