@@ -29,6 +29,7 @@ result = 0
 #how many rounds
 rounds = 3
 #last marble
+marble = 'none'
 # welcome user to game
 # loop drawing marbles
     #how much was bet
