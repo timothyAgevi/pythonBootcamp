@@ -26,7 +26,7 @@ def palindrome():
     iterations = 0
     for num1 in range(low_val,high_val):
         for num2 in range(low_val,high_val):
-        iterations += 1
+            iterations += 1
        
         if is_palindrome(num1*num2):
                 palindromes_list.append(num1*num2)
