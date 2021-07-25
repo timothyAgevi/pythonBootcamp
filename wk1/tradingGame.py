@@ -36,7 +36,7 @@ print(f'You start the game with {start_purse} gold pieces')
 for draw in range(1,rounds+1):
 
     #how much was bet
-      bet = int(input('Current Purse: {purse} Last draw: {marble} \nRound {draw} - How much do you want to bet?: ')
+      bet = int(input(f'Current Purse: {purse} Last draw: {marble} \nRound {draw} - How much do you want to bet?: ')
     #draw marble
      marble = random.choice(bag)
     # win or loss
