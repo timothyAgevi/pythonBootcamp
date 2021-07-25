@@ -1,4 +1,6 @@
+# instruction
 # draw a marble from a bag ( assume it random)
+
 # bag has 10 marbles : 6 green 4 red
 # if you draw a green marble you win same amount you bet,
 #if you draw red marble you  lose same amount you bet 
@@ -9,7 +11,7 @@
 # if you lose half of your money is over
 # print data
 
-# bonus
+
 # replace 2 marbles ;
 # 1 green with a black 10X winner marble
 #  1 red with a white 5X loser 
