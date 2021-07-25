@@ -4,3 +4,6 @@
 
 import time
 # find all palindromes between 100 and 999
+def is_palindrome(val):
+    
+    
