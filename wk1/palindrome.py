@@ -3,3 +3,4 @@
 #  like 101 or 990099
 
 import time
+# find all palindromes between 100 and 999
