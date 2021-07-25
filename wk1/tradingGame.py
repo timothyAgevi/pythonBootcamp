@@ -25,6 +25,7 @@ start_purse = 1000
 # current money amount
 purse = start_purse
 #result of last round
+result = 0
 #how many rounds
 #last marble
 # welcome user to game
