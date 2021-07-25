@@ -11,4 +11,5 @@
 
 # bonus
 # replace 2 marbles ;
-# 1 green with a black 10X winner marble 
+# 1 green with a black 10X winner marble
+#  1 red with a white 5X loser 
