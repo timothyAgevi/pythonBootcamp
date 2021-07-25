@@ -40,6 +40,10 @@ for draw in range(1,rounds+1):
     #draw marble
      marble = random.choice(bag)
     # win or loss
+    if marble == 'green':
+        result = bet
+    else:
+        result = -bet
     #calc win or loss/ result and new amount/purse
     #lose game if lose half of money
     #print results
