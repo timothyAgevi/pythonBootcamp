@@ -36,4 +36,6 @@ def palindrome():
     print('Iterations:' , iterations)
     print('Largest palindrome:', max(palindromes_list))
     print('Runtime:', time.time()-start_time)
-    print('---------End Run--------')                
+    print('---------End Run--------')
+    
+palindrome()    
