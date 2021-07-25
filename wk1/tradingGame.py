@@ -5,3 +5,4 @@
 # marbles are replaced into bages after each round
 # before each draw decide howmuch you will bet and enter it  
 # you start game with 1000 goldpieces of €, £, $
+# number of rows should be a variable
