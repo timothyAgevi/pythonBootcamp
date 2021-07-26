@@ -1,3 +1,4 @@
+import time
 def palindrome_create():
     nums=('9','8','7','6','5','4','3','2','1','0') # we create a list of the strings we will use
     iterations = 0 # we bring along our trusty iterator
@@ -20,8 +21,8 @@ def palindrome_create():
                     iterations += 1
                     if palindrome % digit == 0: #check for divisibility, since we are stepping through palindromes in order, as soon as we find one: we are Done! 
                        
-                        return 'palindrome:', palindrome, 'digit:',digit, 'palindrome/digit:', palindrome/digit ,'iterations:',iterations #gives nicer close out of loops
-    print({palindrome})                    
+                        return'palindrome:', palindrome, 'digit:',digit, 'palindrome/digit:', palindrome/digit ,'iterations:',iterations #gives nicer close out of loops
+                        #line 24 has to be return otherwise 
+                        # ZeroDivisionError: integer division or modulo by zero
 
-
-palindrome_create()
+print(palindrome_create())
