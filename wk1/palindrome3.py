@@ -21,7 +21,7 @@ def palindrome_create():
                     if palindrome % digit == 0: #check for divisibility, since we are stepping through palindromes in order, as soon as we find one: we are Done! 
                        
                         return 'palindrome:', palindrome, 'digit:',digit, 'palindrome/digit:', palindrome/digit ,'iterations:',iterations #gives nicer close out of loops
-
+    print({palindrome})                    
 
 
 palindrome_create()
