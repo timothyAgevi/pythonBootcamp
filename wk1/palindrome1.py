@@ -20,7 +20,7 @@ def palindrome():
             if is_palindrome(num1*num2):
                 palindrom_list.append(num1*num2)# append takes only 1 argument
                 debug_list.append([num1,num2,palindrom_list])
-                print(palindrom_list)
+                print(max(palindrom_list))
                 # print(debug_list)
                 print('Largest palindrome:', max(palindromes_list))
 palindrome()                
