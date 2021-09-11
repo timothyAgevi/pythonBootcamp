@@ -1,13 +1,13 @@
-from flask import Flask,redirect,redirect,url_for,request,
+from flask import Flask,redirect,url_for,request,render_template,session
 
 app = Flask(__name__)
 app.secret_key = "agevi"
 
 users = {"agevi": ("agevi", "1234")}
 
-@app.route('/')
+@app.route("/index")
 def index():
-    return render_template("home.html", name=session.get("username", "Unknown"))
+    return render_template("index.html", name=session.get("username", "Unknown"))
 
 @app.route("/login", methods=["GET", "POST"])
 def login():
@@ -17,8 +17,8 @@ def login():
 
         if username in users and users[username][1] == password:
             session["username"] = username
-            return redirect(url_for("home"))
-    return render_template("login.jinja2")
+            return redirect(url_for("index"))
+    return render_template("login.html")
 
 
 @app.route("/register", methods=["GET", "POST"])
@@ -35,7 +35,7 @@ def register():
 @app.route("/logout")
 def logout():
     session.clear()
-    return redirect(url_for("home"))    
+    return redirect(url_for("index"))    
 
 if __name__=='__main__':
     app.run(debug = True)
