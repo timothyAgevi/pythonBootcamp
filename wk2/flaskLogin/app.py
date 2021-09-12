@@ -5,7 +5,7 @@ app.secret_key = "agevi"
 
 users = {"agevi": ("agevi", "1234")}
 
-@app.route("/index")
+@app.route("/",methods=["GET", "POST"])
 def index():
     return render_template("index.html", name=session.get("username", "Unknown"))
 
